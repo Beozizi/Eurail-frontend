@@ -3,7 +3,6 @@ import classNames from 'classnames/bind';
 import styles from './Navigation.module.scss'
 import Button from '~/components/Button/Button';
 import { Link } from 'react-router-dom';
-import images from '~/assets/images/images';
 import config from '~/config';
 
 const cx = classNames.bind(styles)

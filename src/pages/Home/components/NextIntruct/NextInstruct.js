@@ -3,7 +3,6 @@ import classNames from 'classnames/bind';
 
 import styles from './NextInstruct.module.scss'
 // eslint-disable-next-line no-unused-vars
-import { instructFirst, instructsecond, instructthird, instructford, instructfifth } from '~/assets/images';
 import NextInstructItem from './NextInstructItem';
 import images from '~/assets/images/images';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

@@ -8,12 +8,8 @@ import styles from './PlaceSearch.module.scss';
 import {
     GoogleMap,
     useLoadScript,
-    Marker,
-    InfoWindow, 
-    Autocomplete} from "@react-google-maps/api";
+    Marker,} from "@react-google-maps/api";
 import { useCallback, useRef } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import Search from './Search';
 import Navigation from './Navagation/Navigation';
 

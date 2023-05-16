@@ -3,7 +3,7 @@ import classNames from "classnames/bind";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faCartShopping, faChevronDown, faCircleUser, faDollarSign, faGlobe, faSearch } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
-import {Inspired, InspiredAbout, LanguageItems, MoneyItems, Plan, Passes, Help} from './Menu/Options';
+import {Inspired, LanguageItems, MoneyItems, Plan, Passes, Help} from './Menu/Options';
 
 import styles from './Header.module.scss'
 import {MenuHeaderItem} from './Menu';
