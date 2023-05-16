@@ -1,0 +1,47 @@
+.wrapper {
+    width: auto;
+    height: 35px;
+    background-color: rgb(143,142,146);
+
+}
+
+.container {
+    width: 75pc;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+    color: #fff;
+}
+
+.home{
+    font-size: 0.8rem;
+    color: #fff;
+    padding: 10px;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.second-icon {
+    font-size: 1.2rem;
+    margin: 0 15px 0 5px;
+    color: var(--sub-color);
+}
+
+.container > a {
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.06rem;
+    padding-right: 10px;
+    color: #fff;
+}
+
+.container > span {
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.06rem;
+    padding-right: 10px;
+}

@@ -1,0 +1,127 @@
+.wrapper {
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    margin-bottom: 50px;
+}
+
+
+.instruct-container{
+    width: 90pc;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 100px;
+}
+
+.instruct-title{
+    width: 52%;
+    font-size: 4.8rem;
+
+    display: block;
+    margin: 0 auto;
+    
+}
+// .instruct-content{
+//     padding-top: 40px;
+// }
+
+// Instruct Item
+
+.instruct-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.instructItem-container{
+    
+    &:hover {
+        cursor: pointer;
+    }
+
+    .instructItem-container-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        font-size: 2.2rem;
+        letter-spacing: 0.02rem;
+
+        .instructItem-container-button {
+            margin-right: 15px;
+    
+            height: 25px;
+            width: 25px;
+            border-radius: 50%;
+            font-size: 2rem;
+            font-weight: 700;
+        }
+    
+    }
+
+    .instructItem-container-content{
+        // letter-spacing: 0.1rem;
+        display: inline-block;
+        padding: 10px 0 20px;
+    }
+    .instructItem-container-link{
+        font-size: 1.8rem;
+        text-decoration: underline;
+    }
+}
+
+
+// Custom Item
+
+.instruct-content > div {
+    border-radius: 25px;
+    padding: 30px 25px;
+    width: 23.5%;
+} 
+.InstructFirst{
+    background-color: rgb(255,241,211);
+
+    &:hover {
+        background-color: var(--sub-color);
+    }
+
+    .instructItem-container-button  {
+        background-color: var(--sub-color);
+    }
+}
+
+.InstructSecond {
+    background-color: rgb(255,230,208);
+
+    &:hover {
+        background-color: rgb(255,128,21);
+    }
+    .instructItem-container-button  {
+        background-color: rgb(255,128,21);
+    }
+}
+
+.InstructThird {
+    background-color: rgb(210,240,228);
+
+    &:hover {
+        background: rgb(34,178,123);
+    }
+    .instructItem-container-button  {
+        background-color: rgb(34,178,123);
+    }
+}
+
+.InstructFord {
+    background-color: rgb(231,241,249);
+    &:hover {
+        background-color: rgb(134,186,223);
+    }
+    .instructItem-container-button  {
+        background-color: rgb(134,186,223);
+    }
+}

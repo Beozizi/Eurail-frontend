@@ -1,0 +1,139 @@
+.wrapper{
+    height: auto;
+    color: #fff;
+}
+
+
+
+
+// Navigation
+.footer{
+    background-color: var(--primary-color);
+    
+    h3 {
+        font-size: 1.8rem;
+        font-weight: 600;
+        letter-spacing: .25px;
+        line-height: 24px;
+        padding-bottom: 15px;
+    }
+}
+
+
+.sub-sription-title {
+    display: inline-block;
+    font-size: 1.4rem;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    line-height: 2rem;
+    padding-bottom: 15px;
+
+    strong{
+        color: var(--sub-color);
+    }
+}
+
+.footer-navigation{ 
+    max-width: 90pc;
+    margin: 0 auto;
+    
+}
+.container{
+    padding: 60px 0;
+    margin: 0 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.sub-sription {
+    width: 25%;
+}
+
+.letter {
+    width: 100%;
+    padding-bottom: 15px;
+    input {
+        height: 40px;
+        border-radius: 6px;
+        padding: 0 5px;
+        word-wrap: break-word;
+    }
+    .letter-email{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .letter-other{
+        display: flex;
+        justify-content: space-between;
+        .letter-name {
+            width: 48.5%;
+            
+        }
+
+        .letter-country{
+            width: 48.5%;
+            
+        }
+    }
+}
+
+.option {
+    display: flex;
+    justify-content: baseline;
+    align-items: flex-start;
+    margin-bottom: 15px;
+
+    .option-title {
+        display: inline;
+        color: #ccc;
+        font-size: 1rem;
+        line-height: 18px;
+        letter-spacing: -0.19px;
+        word-spacing: 0.19px;
+        
+    }
+    
+    .option-checkbox {
+        margin: 3px 7px 0 0;
+    }
+}
+// footer-end
+
+.footer-end {
+    padding-bottom: 30px;
+    margin: 0 120px;
+    border-top: 0.2px solid rgba(204, 204, 204, 0.2)
+}
+
+.footer-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+
+.logo-link > img {
+    max-width: var(--width-logo);
+    background-color: #fff;
+    padding: 2px;
+    border-radius: 4px;
+}
+.footer-link-socials {
+    display: flex;
+    flex-direction: row;
+    padding: 0 5px;
+    margin-right: 650px;
+}
+
+.footer-link-providers {
+    display: flex;
+    flex-direction: row;
+}
+
+

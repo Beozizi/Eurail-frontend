@@ -1,0 +1,50 @@
+
+.mega-menu-container{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: -5px;
+    right: calc(-63px - var(--width-logo));
+    width: 1015px;
+    max-height: 300px;
+    padding: 20px 20px 60px 20px;
+    background-color: #fff;
+}
+
+.mega-menu-list {
+
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mega-menu-item {
+    position: relative;
+
+    color: var(--primary-color);
+    font-size: 1.6rem;
+    font-weight: 300;
+    padding: 14px 0px;
+    margin-right: 20px;
+    width: 100%;
+
+
+    border-bottom: 0.5px solid #ccc;
+
+    // &::before {
+    //     content: '+';
+    //     font-size: 1.6rem;
+    //     color: var(--sub-color);
+    //     display: inline-block;
+    //     position: absolute;
+    //     right: 10px;
+    // }
+    &:hover {
+        color: var(--sub-color);
+    }
+    // &:last-child {
+    //     border-bottom: 2px solid var(--sub-color);
+    // }
+}
+

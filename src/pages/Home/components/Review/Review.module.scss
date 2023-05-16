@@ -1,0 +1,101 @@
+.wrapper {
+    background-color: rgb(254,251,242);
+
+    width: auto;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0 50px;
+}
+
+.navigation >  button {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: var(--sub-color);
+
+    &:hover{
+        cursor: pointer;
+        background-color: #ccc;
+    }
+
+    &:first-child {
+        margin-right: 10px;
+    }
+}
+
+.Review-container{
+    display: flex;
+    width: 90pc;
+    height: 320px;
+
+    padding: 0 80px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.Review-content{
+    width: 75%;
+    height: 200px;
+}
+
+
+
+.Review-container > button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 2.2rem;
+    color: #666;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #bbb;
+    }
+}
+
+.ReviewItem-content {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+
+    margin: 0 auto;
+
+    
+
+}
+
+// Images 
+
+.images-content > img{
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 404px;
+    height: 270px;
+}
+
+// Text
+.text-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+}
+
+.text-content > span {
+    font-size: 2.4rem;
+    font-weight: 500;
+    display: block;
+    
+    padding-bottom: 30px;
+}
+
+.text-content > p {
+    opacity: 0.5;
+    font-size: 1.4rem;
+}
+
+

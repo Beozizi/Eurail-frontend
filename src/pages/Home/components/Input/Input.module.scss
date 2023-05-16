@@ -1,0 +1,107 @@
+.input-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon{
+    margin: 0 15px;
+    color: #777;
+    border: none;
+    background-color: transparent;
+}
+
+.input-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin-right: 15px;
+}
+
+// input destination
+
+.input-destination{
+    position: relative;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    color: #333;
+    border: 0.5px solid #ccc;
+    height: 40px;
+
+}
+
+.input-destination-result{
+    position: absolute;
+    top: -10px;
+    right: -127px;
+
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #ccc;
+    max-height: 250px;
+    width: 400px;
+}
+
+.result-list {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.clear{
+    border: none;
+    background-color: transparent;
+    color: #333;
+    font-size: 2rem;
+}
+
+// input quantity
+.input-quantity {
+    
+    width: 40%;
+    border-radius: 5px;
+    color: #333;
+    border: 0.5px solid #ccc;
+
+    margin: auto;
+    &:hover {
+        cursor: pointer;
+        border-color: var(--sub-color);
+    }
+}
+
+.quantiy-container{
+    height: 40px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.button-container{
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: transparent;
+    width: 100%;
+    font-size: 1.2rem;
+    opacity: 0.6;
+    padding: 10px 0;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+// 
+.button-link {
+    &:active {
+        background-color: rgb(221, 162, 27);
+    }
+}
+
+

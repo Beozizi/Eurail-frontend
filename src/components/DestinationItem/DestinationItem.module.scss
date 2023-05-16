@@ -1,0 +1,23 @@
+.wrapper{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.wrapper:last-child{
+    border-bottom: none;
+}
+
+.info {
+    display: flex;
+    align-items: flex-start;
+
+    font-size: 1.4rem;
+    font-weight: 200;
+    color: #333;
+    padding: 15px 20px;
+}
+
+.info > span {
+    padding-left: 20px;
+}

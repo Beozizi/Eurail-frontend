@@ -1,0 +1,102 @@
+.wrapper {
+    width: auto;
+    margin: 100px auto 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.NextInstruct-container{
+    width: 90pc;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 100px;
+    overflow-x: scroll;
+}
+
+// Top 
+
+.container-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Nextinstruct-title {
+    h2{
+        font-size: 4.4rem;
+        line-height: 4.4rem;
+    }
+
+    span {
+        font-size: 1.6rem;
+        opacity: 0.5;
+    }
+}
+
+.Nextinstruct-navigation {
+    button{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        margin-left: 15px;
+        font-size: 2rem;
+        color: #666;
+
+        &:hover {
+            cursor: pointer;
+            background-color: #bbb;
+        }
+    }
+}
+
+
+// Content 
+
+.Nextinstruct-content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+
+// Content item 
+
+.NextinstructItem-item {
+    width: 23.5%;
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+        cursor: pointer;
+        transform: translateY(-10px);
+    }
+}
+.NextinstructItem-container > h4 {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.NextinstructItem-info {
+    opacity: 0.5;
+    span {
+        padding-left: 5px;
+        margin-top: 20px;
+    }
+}
+
+.NextinstructItem-info > div {
+    margin-top: 5px;
+} 
+// Images 
+
+.NextinstructItem-images{
+}
+
+.NextinstructItem-images > img {
+    width: 292px;
+    height: 292px;
+    border-radius: 15px;
+    
+}

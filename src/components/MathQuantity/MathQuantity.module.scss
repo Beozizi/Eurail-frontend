@@ -1,0 +1,94 @@
+.math-quantity-result{
+    position: absolute;
+    top: 5px;
+    right: -44px;
+
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #ccc;
+    height: 370px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.math-quantity-list {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 55px;
+    padding: 5px 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    
+    span {
+       padding-right: 7px;
+       font-size: 1.4rem;
+    }
+
+    p {
+        opacity: 0.5;
+        font-size: 1.6rem;
+    }
+}
+
+// Math
+
+.math > span{
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0 20px;
+}
+
+.math > button{
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+// 
+.MathQuantityItem{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.MathQuantityItem > P{
+    padding-left: 7px;
+    opacity: 0.6;
+}
+
+// footer 
+
+.footer {
+    padding: 15px;
+}
+
+.footer > span{
+    display: inline-block;
+    font-size: 1.4rem;
+    letter-spacing: .02rem;
+    opacity: 0.7;
+    padding-bottom: 20px;
+}
+
+.footer > button {
+    float: right;
+}
+
+.change{
+    background-color: #fff;
+}

@@ -1,0 +1,38 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+// Menu of Header
+
+.menu-header-item {
+    color: var(--primery-color);
+}
+.menu-header-item-title {
+    font-style: 1.4rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 2.1rem;
+    letter-spacing: 0.022rem;
+    padding: 8px 24px;
+}
+
+///Menu of Sub Header
+.menu-sub-header-item {
+    color: var(--primery-color);
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding-left: 20px;
+}
+
+.menu-sub-header-item-title{
+    padding: 0 5px;
+}  
+
+.menu-sub-header-item-sub-icon {
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+
